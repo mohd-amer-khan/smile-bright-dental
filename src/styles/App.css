@@ -1,0 +1,180 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+.navbar {
+  background-color: #e3f2fd;
+}
+.hero {
+  background: linear-gradient(135deg, #26A69A 0%, #4DD0E1 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+.service-card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+.icon-circle {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.icon-circle i {
+  font-size: 2.5rem;
+  color: white;
+}
+.service-general {
+  background: linear-gradient(135deg, #26A69A 0%, #B2EBF2 100%);
+  color: white;
+}
+.service-general:hover {
+  background: linear-gradient(135deg, #00897B 0%, #80DEEA 100%);
+}
+.service-ortho {
+  background: linear-gradient(135deg, #FF8A65 0%, #FFCCBC 100%);
+  color: white;
+}
+.service-ortho:hover {
+  background: linear-gradient(135deg, #D81B60 0%, #FFAB91 100%);
+}
+.service-cosmetic {
+  background: linear-gradient(135deg, #4DB6AC 0%, #B2DFDB 100%);
+  color: white;
+}
+.service-cosmetic:hover {
+  background: linear-gradient(135deg, #00897B 0%, #80CBC4 100%);
+}
+.service-implants {
+  background: linear-gradient(135deg, #81D4FA 0%, #BBDEFB 100%);
+  color: white;
+}
+.service-implants:hover {
+  background: linear-gradient(135deg, #0288D1 0%, #90CAF9 100%);
+}
+.service-root-canal {
+  background: linear-gradient(135deg, #CE93D8 0%, #F3E5F5 100%);
+  color: white;
+}
+.service-root-canal:hover {
+  background: linear-gradient(135deg, #8E24AA 0%, #E1BEE7 100%);
+}
+.service-periodontal {
+  background: linear-gradient(135deg, #FFCCBC 0%, #FFEBE6 100%);
+  color: white;
+}
+.service-periodontal:hover {
+  background: linear-gradient(135deg, #F4511E 0%, #FFCDD2 100%);
+}
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.about-clinic, .about-mission {
+  background: linear-gradient(135deg, #4DB6AC 0%, #B2DFDB 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.about-clinic:hover, .about-mission:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #00897B 0%, #80CBC4 100%);
+}
+.about-clinic h2, .about-mission h2 {
+  display: flex;
+  align-items: center;
+}
+.practitioner-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.practitioner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+.practitioner-jane {
+  background: linear-gradient(135deg, #26A69A 0%, #B2EBF2 100%);
+  color: white;
+}
+.practitioner-jane:hover {
+  background: linear-gradient(135deg, #00897B 0%, #80DEEA 100%);
+}
+.practitioner-john {
+  background: linear-gradient(135deg, #FF8A65 0%, #FFCCBC 100%);
+  color: white;
+}
+.practitioner-john:hover {
+  background: linear-gradient(135deg, #D81B60 0%, #FFAB91 100%);
+}
+.contact-form-box, .contact-info-box {
+  background: linear-gradient(135deg, #26A69A 0%, #B2EBF2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.contact-form-box:hover, .contact-info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #00897B 0%, #80DEEA 100%);
+}
+.contact-form-box h2, .contact-info-box h2, .contact-info-box h3 {
+  display: flex;
+  align-items: center;
+}
+.contact-form-box .form-control {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+.contact-info-box p {
+  display: flex;
+  align-items: center;
+}
+.map-box {
+  background: linear-gradient(135deg, #FF8A65 0%, #FFCCBC 100%);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.map-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #D81B60 0%, #FFAB91 100%);
+}
+.footer {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+}
+.form-error {
+  color: red;
+  font-size: 0.875rem;
+}
+.btn-primary {
+  background-color: #00695C;
+  border-color: #00695C;
+}
+.btn-primary:hover {
+  background-color: #004D40;
+  border-color: #004D40;
+}
